@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-04T17:25:58 IST" name="Demoblaze Suite" finished-at="2025-04-04T17:27:04 IST" duration-ms="65655">
+    <groups>
+    </groups>
+    <test started-at="2025-04-04T17:25:58 IST" name="Chrome Test" finished-at="2025-04-04T17:27:00 IST" duration-ms="61471">
+      <class name="tests.Test_DemoBlaze">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:25:58 IST" name="setup" finished-at="2025-04-04T17:26:02 IST" duration-ms="3973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:02 IST" name="initTest" finished-at="2025-04-04T17:26:02 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testSignUpWithExistingUser() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:02 IST" name="resetPage" finished-at="2025-04-04T17:26:04 IST" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testSignUpWithExistingUser()[pri:2, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:04 IST" name="testSignUpWithExistingUser" finished-at="2025-04-04T17:26:11 IST" duration-ms="7161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithExistingUser -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:11 IST" name="resetPage" finished-at="2025-04-04T17:26:12 IST" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:11 IST" name="initTest" finished-at="2025-04-04T17:26:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testSignUpWithEmptyFields() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="testSignUpWithEmptyFields()[pri:3, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:12 IST" name="testSignUpWithEmptyFields" finished-at="2025-04-04T17:26:19 IST" duration-ms="6170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithEmptyFields -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:19 IST" name="resetPage" finished-at="2025-04-04T17:26:20 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:19 IST" name="initTest" finished-at="2025-04-04T17:26:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithEmptyFields() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="testLoginWithEmptyFields()[pri:4, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:20 IST" name="testLoginWithEmptyFields" finished-at="2025-04-04T17:26:25 IST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:25 IST" name="initTest" finished-at="2025-04-04T17:26:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithInvalidPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:25 IST" name="resetPage" finished-at="2025-04-04T17:26:27 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:5, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:27 IST" name="testLoginWithInvalidPassword" finished-at="2025-04-04T17:26:33 IST" duration-ms="6101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:33 IST" name="initTest" finished-at="2025-04-04T17:26:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithValidCredentials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:33 IST" name="resetPage" finished-at="2025-04-04T17:26:34 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:34 IST" name="testLoginWithValidCredentials" finished-at="2025-04-04T17:26:48 IST" duration-ms="13557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:48 IST" name="initTest" finished-at="2025-04-04T17:26:48 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testAddLaptopToCartAfterLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:48 IST" name="resetPage" finished-at="2025-04-04T17:26:50 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testAddLaptopToCartAfterLogin()[pri:7, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:50 IST" name="testAddLaptopToCartAfterLogin" finished-at="2025-04-04T17:26:54 IST" duration-ms="4859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLaptopToCartAfterLogin -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:54 IST" name="initTest" finished-at="2025-04-04T17:26:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.checkoutpagetest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:54 IST" name="resetPage" finished-at="2025-04-04T17:26:56 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="checkoutpagetest()[pri:8, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:56 IST" name="checkoutpagetest" finished-at="2025-04-04T17:26:59 IST" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_DemoBlaze@2362f559]" started-at="2025-04-04T17:26:59 IST" name="tearDown" finished-at="2025-04-04T17:27:00 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_DemoBlaze -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-04-04T17:25:58 IST" name="Edge Test" finished-at="2025-04-04T17:27:01 IST" duration-ms="62375">
+      <class name="tests.Test_DemoBlaze">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:25:58 IST" name="setup" finished-at="2025-04-04T17:26:02 IST" duration-ms="4097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:02 IST" name="initTest" finished-at="2025-04-04T17:26:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testSignUpWithExistingUser() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:02 IST" name="resetPage" finished-at="2025-04-04T17:26:04 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testSignUpWithExistingUser()[pri:2, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:04 IST" name="testSignUpWithExistingUser" finished-at="2025-04-04T17:26:11 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithExistingUser -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:11 IST" name="initTest" finished-at="2025-04-04T17:26:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testSignUpWithEmptyFields() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:11 IST" name="resetPage" finished-at="2025-04-04T17:26:13 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testSignUpWithEmptyFields()[pri:3, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:13 IST" name="testSignUpWithEmptyFields" finished-at="2025-04-04T17:26:19 IST" duration-ms="6326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithEmptyFields -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:19 IST" name="initTest" finished-at="2025-04-04T17:26:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithEmptyFields() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:19 IST" name="resetPage" finished-at="2025-04-04T17:26:20 IST" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithEmptyFields()[pri:4, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:20 IST" name="testLoginWithEmptyFields" finished-at="2025-04-04T17:26:26 IST" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:26 IST" name="initTest" finished-at="2025-04-04T17:26:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithInvalidPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:26 IST" name="resetPage" finished-at="2025-04-04T17:26:27 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:5, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:27 IST" name="testLoginWithInvalidPassword" finished-at="2025-04-04T17:26:33 IST" duration-ms="5924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:33 IST" name="initTest" finished-at="2025-04-04T17:26:33 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithValidCredentials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:33 IST" name="resetPage" finished-at="2025-04-04T17:26:35 IST" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:35 IST" name="testLoginWithValidCredentials" finished-at="2025-04-04T17:26:48 IST" duration-ms="13535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:48 IST" name="initTest" finished-at="2025-04-04T17:26:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testAddLaptopToCartAfterLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:48 IST" name="resetPage" finished-at="2025-04-04T17:26:50 IST" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testAddLaptopToCartAfterLogin()[pri:7, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:50 IST" name="testAddLaptopToCartAfterLogin" finished-at="2025-04-04T17:26:55 IST" duration-ms="4925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLaptopToCartAfterLogin -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:55 IST" name="initTest" finished-at="2025-04-04T17:26:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.checkoutpagetest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:55 IST" name="resetPage" finished-at="2025-04-04T17:26:57 IST" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="checkoutpagetest()[pri:8, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:26:57 IST" name="checkoutpagetest" finished-at="2025-04-04T17:27:00 IST" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_DemoBlaze@37271612]" started-at="2025-04-04T17:27:00 IST" name="tearDown" finished-at="2025-04-04T17:27:01 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_DemoBlaze -->
+    </test> <!-- Edge Test -->
+    <test started-at="2025-04-04T17:25:58 IST" name="Firefox Test" finished-at="2025-04-04T17:27:04 IST" duration-ms="65655">
+      <class name="tests.Test_DemoBlaze">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:25:58 IST" name="setup" finished-at="2025-04-04T17:26:08 IST" duration-ms="9178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:08 IST" name="resetPage" finished-at="2025-04-04T17:26:09 IST" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:08 IST" name="initTest" finished-at="2025-04-04T17:26:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testSignUpWithExistingUser() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="testSignUpWithExistingUser()[pri:2, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:09 IST" name="testSignUpWithExistingUser" finished-at="2025-04-04T17:26:16 IST" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithExistingUser -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:16 IST" name="initTest" finished-at="2025-04-04T17:26:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testSignUpWithEmptyFields() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:16 IST" name="resetPage" finished-at="2025-04-04T17:26:18 IST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testSignUpWithEmptyFields()[pri:3, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:18 IST" name="testSignUpWithEmptyFields" finished-at="2025-04-04T17:26:24 IST" duration-ms="5689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithEmptyFields -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:24 IST" name="initTest" finished-at="2025-04-04T17:26:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithEmptyFields() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:24 IST" name="resetPage" finished-at="2025-04-04T17:26:25 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithEmptyFields()[pri:4, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:25 IST" name="testLoginWithEmptyFields" finished-at="2025-04-04T17:26:30 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:30 IST" name="initTest" finished-at="2025-04-04T17:26:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithInvalidPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:30 IST" name="resetPage" finished-at="2025-04-04T17:26:32 IST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:5, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:32 IST" name="testLoginWithInvalidPassword" finished-at="2025-04-04T17:26:37 IST" duration-ms="5570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:37 IST" name="initTest" finished-at="2025-04-04T17:26:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testLoginWithValidCredentials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:37 IST" name="resetPage" finished-at="2025-04-04T17:26:39 IST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:39 IST" name="testLoginWithValidCredentials" finished-at="2025-04-04T17:26:52 IST" duration-ms="13273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:52 IST" name="resetPage" finished-at="2025-04-04T17:26:54 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:52 IST" name="initTest" finished-at="2025-04-04T17:26:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.testAddLaptopToCartAfterLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="testAddLaptopToCartAfterLogin()[pri:7, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:54 IST" name="testAddLaptopToCartAfterLogin" finished-at="2025-04-04T17:26:59 IST" duration-ms="4818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLaptopToCartAfterLogin -->
+        <test-method is-config="true" signature="initTest(java.lang.reflect.Method)[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:59 IST" name="initTest" finished-at="2025-04-04T17:26:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Test_DemoBlaze.checkoutpagetest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:26:59 IST" name="resetPage" finished-at="2025-04-04T17:27:01 IST" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="checkoutpagetest()[pri:8, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:27:01 IST" name="checkoutpagetest" finished-at="2025-04-04T17:27:03 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutpagetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_DemoBlaze@10aa41f2]" started-at="2025-04-04T17:27:03 IST" name="tearDown" finished-at="2025-04-04T17:27:04 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_DemoBlaze -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Demoblaze Suite -->
+</testng-results>
